@@ -112,7 +112,8 @@ export const BRAZIL_STATES: BrazilState[] = [
     initials: 'MG',
     flagUrl: getFlagUrl('MG'),
     detranUrl: 'https://transito.mg.gov.br/veiculos/situacao-do-veiculo/consulta-de-situacao-do-veiculo',
-    region: 'Sudeste'
+    region: 'Sudeste',
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'pa',
