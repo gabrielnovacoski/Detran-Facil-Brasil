@@ -43,7 +43,8 @@ export const BRAZIL_STATES: BrazilState[] = [
     initials: 'BA',
     flagUrl: getFlagUrl('BA'),
     detranUrl: 'https://servicos.detran.ba.gov.br/tiposervicos#veiculos',
-    region: 'Nordeste'
+    region: 'Nordeste',
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'ce',
@@ -60,7 +61,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('DF'),
     detranUrl: 'https://portal.detran.df.gov.br/#/home',
     region: 'Centro-Oeste',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'es',
@@ -69,7 +70,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('ES'),
     detranUrl: 'https://login.acessocidadao.es.gov.br/',
     region: 'Sudeste',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'go',
@@ -78,7 +79,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('GO'),
     detranUrl: 'https://www.go.gov.br/servicos/servico/consultar-veiculo--ipva-multas-e-crlv',
     region: 'Centro-Oeste',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'ma',
@@ -103,7 +104,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('MS'),
     detranUrl: 'https://www.meudetran.ms.gov.br/login',
     region: 'Centro-Oeste',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'mg',
@@ -144,7 +145,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('PE'),
     detranUrl: 'https://online8.detran.pe.gov.br/DetranPessoal/PortalServicos/LoginGov?servico_uri=https://online5.detran.pe.gov.br/ServicosWeb/VeiculoMVC/Extrato/Extrato',
     region: 'Nordeste',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'pi',
@@ -169,7 +170,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('RN'),
     detranUrl: 'https://portal.detran.rn.gov.br/login',
     region: 'Nordeste',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'rs',
@@ -178,7 +179,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('RS'),
     detranUrl: 'https://pcsdetran.rs.gov.br/login?redirectUrl=%2Fconsulta-veiculo',
     region: 'Sul',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'ro',
@@ -203,7 +204,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('SC'),
     detranUrl: 'https://servicos.detran.sc.gov.br/login',
     region: 'Sul',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'sp',
@@ -212,7 +213,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     flagUrl: getFlagUrl('SP'),
     detranUrl: 'https://sso.acesso.gov.br/login?client_id=idp.sp.gov.br&authorization_id=19c4f5c9cba',
     region: 'Sudeste',
-    note: 'LOGIN'
+    note: 'PRECISA LOGIN - GOV'
   },
   {
     id: 'se',
