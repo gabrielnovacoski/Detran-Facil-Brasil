@@ -1,8 +1,8 @@
 import { BrazilState } from './types';
 
 // Função auxiliar para gerar URLs das bandeiras dos estados brasileiros (SVG/PNG)
-// Usando flagcdn.com pela estabilidade e qualidade superior
-const getFlagUrl = (initials: string) => `https://flagcdn.com/w320/br-${initials.toLowerCase()}.png`;
+// Usando o oficial IBGE Atlas Escolar para estabilidade e fidelidade dos estados
+const getFlagUrl = (initials: string) => `https://atlasescolar.ibge.gov.br/images/bandeiras/ufs/${initials.toLowerCase()}.png`;
 
 export const BRAZIL_STATES: BrazilState[] = [
   {
