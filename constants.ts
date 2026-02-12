@@ -101,8 +101,9 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Mato Grosso do Sul',
     initials: 'MS',
     flagUrl: getFlagUrl('MS'),
-    detranUrl: 'https://www.detran.ms.gov.br/veiculos',
-    region: 'Centro-Oeste'
+    detranUrl: 'https://www.meudetran.ms.gov.br/login',
+    region: 'Centro-Oeste',
+    note: 'LOGIN'
   },
   {
     id: 'mg',
