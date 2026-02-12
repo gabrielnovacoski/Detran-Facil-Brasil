@@ -94,6 +94,9 @@ const App: React.FC = () => {
           <p className="text-slate-600 text-[9px] font-bold uppercase tracking-widest">
             Facilitando o acesso aos serviços do DETRAN
           </p>
+          <p className="text-slate-700 text-[8px] mt-2 font-medium">
+            Criado por Gabriel Novacoski
+          </p>
         </div>
       </footer>
     </div>
