@@ -212,7 +212,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'São Paulo',
     initials: 'SP',
     flagUrl: getFlagUrl('SP'),
-    detranUrl: 'https://sso.acesso.gov.br/login?client_id=idp.sp.gov.br&authorization_id=19c4f5c9cba',
+    detranUrl: 'https://www.detran.sp.gov.br/detransp/en/servicos/veiculos/consultar_debitos_restricoes?id=carta_de_servico_consultar_debitos_restricoes',
     region: 'Sudeste',
     note: 'PRECISA LOGIN - GOV'
   },
