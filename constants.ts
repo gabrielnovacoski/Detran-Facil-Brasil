@@ -110,7 +110,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Minas Gerais',
     initials: 'MG',
     flagUrl: getFlagUrl('MG'),
-    detranUrl: 'https://www.detran.mg.gov.br/veiculos',
+    detranUrl: 'https://transito.mg.gov.br/veiculos/situacao-do-veiculo/consulta-de-situacao-do-veiculo',
     region: 'Sudeste'
   },
   {
@@ -118,7 +118,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Pará',
     initials: 'PA',
     flagUrl: getFlagUrl('PA'),
-    detranUrl: 'https://www.detran.pa.gov.br/veiculos',
+    detranUrl: 'https://sistemas-renavam.detran.pa.gov.br/sistransito/detran-web/servicos/veiculos/indexRenavam.jsf',
     region: 'Norte'
   },
   {
@@ -126,7 +126,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Paraíba',
     initials: 'PB',
     flagUrl: getFlagUrl('PB'),
-    detranUrl: 'https://www.detran.pb.gov.br/veiculos',
+    detranUrl: 'https://detran.pb.gov.br/formularios/licenciamento',
     region: 'Nordeste'
   },
   {
@@ -134,7 +134,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Paraná',
     initials: 'PR',
     flagUrl: getFlagUrl('PR'),
-    detranUrl: 'https://www.detran.pr.gov.br/veiculos',
+    detranUrl: 'https://www.extratodebito.detran.pr.gov.br/detranextratos/geraExtrato.do?action=iniciarProcesso',
     region: 'Sul'
   },
   {
@@ -142,15 +142,16 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Pernambuco',
     initials: 'PE',
     flagUrl: getFlagUrl('PE'),
-    detranUrl: 'https://www.detran.pe.gov.br/veiculos',
-    region: 'Nordeste'
+    detranUrl: 'https://online8.detran.pe.gov.br/DetranPessoal/PortalServicos/LoginGov?servico_uri=https://online5.detran.pe.gov.br/ServicosWeb/VeiculoMVC/Extrato/Extrato',
+    region: 'Nordeste',
+    note: 'LOGIN'
   },
   {
     id: 'pi',
     name: 'Piauí',
     initials: 'PI',
     flagUrl: getFlagUrl('PI'),
-    detranUrl: 'https://www.detran.pi.gov.br/veiculos',
+    detranUrl: 'https://www.pi.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp',
     region: 'Nordeste'
   },
   {
@@ -158,7 +159,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Rio de Janeiro',
     initials: 'RJ',
     flagUrl: getFlagUrl('RJ'),
-    detranUrl: 'https://www.detran.rj.gov.br/_documento.asp?cod=1',
+    detranUrl: 'https://www.detran.rj.gov.br/consultas/consultas-drv/cadastro-de-veiculo.html',
     region: 'Sudeste'
   },
   {
@@ -166,23 +167,25 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Rio Grande do Norte',
     initials: 'RN',
     flagUrl: getFlagUrl('RN'),
-    detranUrl: 'https://www.detran.rn.gov.br/veiculos',
-    region: 'Nordeste'
+    detranUrl: 'https://portal.detran.rn.gov.br/login',
+    region: 'Nordeste',
+    note: 'LOGIN'
   },
   {
     id: 'rs',
     name: 'Rio Grande do Sul',
     initials: 'RS',
     flagUrl: getFlagUrl('RS'),
-    detranUrl: 'https://www.detrans.rs.gov.br/veiculos',
-    region: 'Sul'
+    detranUrl: 'https://pcsdetran.rs.gov.br/login?redirectUrl=%2Fconsulta-veiculo',
+    region: 'Sul',
+    note: 'LOGIN'
   },
   {
     id: 'ro',
     name: 'Rondônia',
     initials: 'RO',
     flagUrl: getFlagUrl('RO'),
-    detranUrl: 'https://www.detran.ro.gov.br/veiculos',
+    detranUrl: 'https://centralservicos.detran.ro.gov.br/consulta/veiculo',
     region: 'Norte'
   },
   {
@@ -190,7 +193,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Roraima',
     initials: 'RR',
     flagUrl: getFlagUrl('RR'),
-    detranUrl: 'https://www.detran.rr.gov.br/veiculos',
+    detranUrl: 'https://www.rr.getran.com.br/site/apps/veiculo/filtroplacarenavam-consultaveiculo.jsp',
     region: 'Norte'
   },
   {
@@ -198,23 +201,25 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Santa Catarina',
     initials: 'SC',
     flagUrl: getFlagUrl('SC'),
-    detranUrl: 'https://www.detran.sc.gov.br/veiculos',
-    region: 'Sul'
+    detranUrl: 'https://servicos.detran.sc.gov.br/login',
+    region: 'Sul',
+    note: 'LOGIN'
   },
   {
     id: 'sp',
     name: 'São Paulo',
     initials: 'SP',
     flagUrl: getFlagUrl('SP'),
-    detranUrl: 'https://www.detran.sp.gov.br/veiculos',
-    region: 'Sudeste'
+    detranUrl: 'https://sso.acesso.gov.br/login?client_id=idp.sp.gov.br&authorization_id=19c4f5c9cba',
+    region: 'Sudeste',
+    note: 'LOGIN'
   },
   {
     id: 'se',
     name: 'Sergipe',
     initials: 'SE',
     flagUrl: getFlagUrl('SE'),
-    detranUrl: 'https://www.detran.se.gov.br/veiculos',
+    detranUrl: 'https://www.detran.se.gov.br/portal/?pg=cons_veiculo',
     region: 'Nordeste'
   },
   {
@@ -222,7 +227,7 @@ export const BRAZIL_STATES: BrazilState[] = [
     name: 'Tocantins',
     initials: 'TO',
     flagUrl: getFlagUrl('TO'),
-    detranUrl: 'https://www.detran.to.gov.br/veiculos',
+    detranUrl: 'https://www.to.gov.br/detran/veiculos',
     region: 'Norte'
   }
 ];
